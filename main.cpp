@@ -1,6 +1,6 @@
-#include "Grid.h"
+#include "Game.h"
 
 int main(){
-    Grid grid;
-    grid.displayGrid();
+    Game game;
+    game.startGame();
 }
