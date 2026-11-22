@@ -2,6 +2,7 @@
 #define GRID_H
 #include <iostream>
 #include <vector>
+#include <conio.h>
 #include "Tile.h"
 
 class Grid {
@@ -13,6 +14,7 @@ class Grid {
     public :
     Grid();
     void displayGrid() const;
+    void changeTab();
 };
 
 #endif
