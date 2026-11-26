@@ -13,7 +13,8 @@ class Grid {
 
     public :
     Grid();
-    void displayGrid() const;
+    int numberCase() const;
+    int tab(int i) const;
     void changeTab();
 };
 

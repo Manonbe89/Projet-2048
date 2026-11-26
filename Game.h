@@ -12,6 +12,7 @@ class Game {
     Game();
     bool state();
     void startGame();
+    void displayGrid() const;
     void mergeTiles();
 };
 

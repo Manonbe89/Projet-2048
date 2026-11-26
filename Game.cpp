@@ -12,8 +12,18 @@ bool Game::state()
 
 void Game::startGame()
 {
-    grid_.displayGrid();
-    grid_.changeTab();
-    std::cout << "after" << std::endl;
-    grid_.displayGrid();
+    //while(state_ == 0){
+        displayGrid();
+        grid_.changeTab();
+        displayGrid();
+    //}
+}
+
+void Game::displayGrid() const{
+    for (int i = 0; i < grid_.numberCase() ; i++ ) {
+        std::cout << grid_.tab(i) << " | ";
+        if(i%4 == 3){
+            std::cout << std::endl;
+        }
+    }
 }
