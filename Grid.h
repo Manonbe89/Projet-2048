@@ -16,6 +16,7 @@ class Grid {
     int numberCase() const;
     int tab(int i) const;
     void changeTab();
+    void mergeTiles(int i, int other, char parametre);
 };
 
 #endif

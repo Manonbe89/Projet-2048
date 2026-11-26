@@ -15,6 +15,7 @@ void Game::startGame()
     //while(state_ == 0){
         displayGrid();
         grid_.changeTab();
+        std::cout << "after" << std::endl;
         displayGrid();
     //}
 }
